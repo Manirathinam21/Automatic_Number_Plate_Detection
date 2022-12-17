@@ -4,7 +4,7 @@ it's a automatic number plate detection using TFOD1 and SSD model with GCP visio
 ### 1. Clone the repository
 ### 2. Create a conda env with python=3.6
 ### 3. Install requirements.txt 
-### 4. Install conda install -c conda-forge dlib
-### 5. Install pip install mxnet 
-### 6. Run the app.py file
+### 4. Specify the GCP vision key in getNumberPlateVals.py file after =# 
+### 5. Run the rest-server.py file
+### 6. post a encodedimage string in postman tool under body json format, will get output
 <br/><br/>
